@@ -4,6 +4,7 @@
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 from flask import Flask
 
+# Create a Flask app
 app = Flask(__name__)
 
 @app.route('/')
@@ -12,5 +13,3 @@ def hola_mundo():
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
