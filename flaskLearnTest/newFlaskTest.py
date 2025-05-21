@@ -9,5 +9,10 @@ app = Flask(__name__)
 def hello_world():
     return 'This is a new Flask test!'
 
+# Define a route
+@app.route('/spain')
+def hello_spain():
+    return 'This is a new Flask spain!'
+
 if __name__ == '__main__':
     app.run(debug=True)
